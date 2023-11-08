@@ -1,0 +1,81 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light Sky Blue */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#timer, #high-score {
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Question Styles */
+#question {
+    color: #4169e1; 
+}
+
+#choices {
+    list-style: none;
+    padding: 0;
+}
+
+#choices li {
+    margin: 10px 0;
+}
+
+/* Button Styles */
+#next-button {
+    background-color: #2e8b57; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#next-button:hover {
+    background-color: #228b22; 
+}
+
+/* Radio Button Styles */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* High Score Styles */
+#high-score {
+    position:relative;
+    top: 5px;
+    color:#fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+    }
+}
