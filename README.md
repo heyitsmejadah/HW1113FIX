@@ -3,7 +3,7 @@
 Javascript Quiz
 
 ### Link:
-!!!!!!!link to website here!!!!!!!!!!!!!
+https://heyitsmejadah.github.io/HW1113FIX/
 
 ### About:
 This is a quick five question JavaScript quiz. It features a timer that counts down and decrements when you choose an incorrect answer. When the game is up, you are prompted for your initials.
