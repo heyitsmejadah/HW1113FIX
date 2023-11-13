@@ -32,15 +32,24 @@ main {
     margin: 20px;
 }
 
+#quiz-container {
+    text-align: center;
+}
 /* Question Styles */
 #question {
     color: #4169e1; 
+    font-weight:bold;
+    font-family: Arial, sans-serif;
+    font-size:xx-large;
 }
 
 #choices {
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: x-large;
+    color:#2e8b57;
+    font-family: Arial, sans-serif;
 }
 
 #choices li {
@@ -63,16 +72,16 @@ main {
 }
 
 #start-button {
-    background-color: #2e8b57; 
-    color: #7e1919; 
+    background-color: rgb(41, 104, 156); 
+    color: #f4f3f3; 
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 26px;
     cursor: pointer;
 }
 #start-button:hover {
-    background-color: #228b22; 
+    background-color: #0f2c0f; 
 }
 
 /* Radio Button Styles */

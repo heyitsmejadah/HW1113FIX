@@ -77,7 +77,7 @@ function checkAnswer() {
             score++;
             scoreElement.textContent = score;
          } else {
-            timeLeft -= 5; // Decrement time by 5 if the answer is wrong
+            timeLeft -= 10; // Decrement time by _ if the answer is wrong
             if (timeLeft < 0) {
                 timeLeft = 0; // Makes sure time doesn't go negative
             }
